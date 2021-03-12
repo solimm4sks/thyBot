@@ -5,7 +5,7 @@ const { messageHandler } = require('./scripts/commands');
 const { voiceHandler } = require('./scripts/voiceLogger');
 const { opTheme } = require('./scripts/opTheme');
 const { onServerMute } = require('./scripts/onServerMute');
-const config = require('config.json');
+require('dotenv').config();
 
 bot.on('message', (msg) => {
     try{
@@ -30,6 +30,6 @@ bot.on('ready', () => {
     //bot.user.setUsername('thyBot');
     //bot.user.setAvatar('avatar.png');
 });
-bot.login(config.TOKEN);
+bot.login(process.env.TOKEN);
 
 module.exports = bot;
