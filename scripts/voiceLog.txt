@@ -8604,3 +8604,7 @@
 12.3.2021-17:29:56//miki_g left LOL(Thy Server)
 12.3.2021-17:35:26//Shobot left LOL(Thy Server)
 12.3.2021-17:35:28//Shobot joined LOL(Thy Server)
+2.4.2021-11:22:0//thyBot joined chill(Thy Server)
+2.4.2021-11:22:11//thyBot left chill(Thy Server)
+2.4.2021-11:23:19//thyBot joined chill(Thy Server)
+2.4.2021-11:23:23//thyBot left chill(Thy Server)

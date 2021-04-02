@@ -33,3 +33,5 @@ bot.on('ready', () => {
 bot.login(process.env.TOKEN);
 
 module.exports = bot;
+
+// fix -> https://stackoverflow.com/questions/60925319/i-am-getting-this-error-ffmpeg-avconv-not-found
