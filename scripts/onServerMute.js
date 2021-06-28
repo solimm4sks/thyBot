@@ -10,7 +10,7 @@ function onServerMute(oldMember, newMember){
     const oldMemberChannel = oldMember.channel;
     const newMemberChannel = newMember.channel;
 
-    if(newMemberChannel !== null && newMember.serverMute === true){
+    if(newMemberChannel !== null && newMember.serverMute === true && oldMember.serverMute === false){
         playSound(newMemberChannel);
     }
 }
